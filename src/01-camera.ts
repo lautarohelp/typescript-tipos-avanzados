@@ -1,6 +1,6 @@
 import { Camera, CameraDirection, CameraResultType } from '@capacitor/camera';
 
-const takePicture = async () => {
+export const takePicture = async () => {
   const image = await Camera.getPhoto({
     quality: 90,
     allowEditing: true,
