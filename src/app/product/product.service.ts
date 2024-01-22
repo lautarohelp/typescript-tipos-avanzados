@@ -7,3 +7,7 @@ export const addProduct = (data: Product) => {
   // data.createdAt = new Date(2004, 10, 7);
   products.push(data);
 }
+
+export const updateProduct = (id: string, changes: Product) => {
+//  code
+}
