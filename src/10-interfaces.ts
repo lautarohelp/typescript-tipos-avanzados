@@ -11,14 +11,14 @@ interface Product  {
 
 const products: Product[] = [];
 
+
+const addProduct = (data: Product) => {
+  products.push(data);
+}
+
 products.push({
   id: '1',
   title: 'p1',
   createdAt: new Date(),
   stock: 10
 });
-
-const addProduct = (data: Product) => {
-  products.push(data);
-}
-
